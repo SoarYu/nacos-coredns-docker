@@ -1,0 +1,8 @@
+. {
+    log
+    nacos {
+        nacos_namespaceId public
+        nacos_server_host console.nacos.io:8848
+    }
+    forward . /etc/resolv.conf
+ }
